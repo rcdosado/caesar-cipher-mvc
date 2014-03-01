@@ -9,7 +9,7 @@ Requirements
 ------------
 
 -Java Development Kit  
--miglayout-swing.jar from MigLayout (www.miglayout.com/)  
+-miglayout-4.0-swing.jar from MigLayout (www.miglayout.com/)  
 -hamcrest-core-1.3.jar and junit-4.11.jar of JUnit 4 suite for testing     
 
 
@@ -20,7 +20,7 @@ Since it uses the MiG Layout Java Layout Manager for Swing and SWT you have to
 include miglayout-swing.jar to the Class Path . So typing this to the 
 commandline, to where your source codes are located
 
-	javac -cp ".;libs\miglayout-swing.jar" Caesar.java
+	javac -cp ".;libs\miglayout-4.0-swing.jar" Caesar.java
 
 will yield class files which will be used for running the program
 
@@ -29,11 +29,11 @@ How to Run
 
 The MigLayout is still needed in the execution so this is how it can be run
 
-	java -cp ".;libs\miglayout-swing.jar" Caesar
+	java -cp ".;libs\miglayout-4.0-swing.jar" Caesar
 
 you may change to this if you want dos window to minimize during execution
 
-	start javaw -cp ".;libs\miglayout-swing.jar" Caesar
+	start javaw -cp ".;libs\miglayout-4.0-swing.jar" Caesar
 
 or much better if you just double-click the included batch file. It assumes you 
 have installed Java Development Kit in your system, and java, javac, or javaw is 
@@ -57,9 +57,9 @@ the required jars are existing in the libs folder so everything will be okay.
 Link to Libraries
 ----------------
 
-http://www.migcalendar.com/miglayout/versions/4.0/miglayout-4.0-swing.jar
-http://mirrors.ibiblio.org/maven2/junit/junit/4.11/junit-4.11.jar
-https://hamcrest.googlecode.com/files/hamcrest-core-1.3.jar
+	http://www.migcalendar.com/miglayout/versions/4.0/miglayout-4.0-swing.jar  
+	http://mirrors.ibiblio.org/maven2/junit/junit/4.11/junit-4.11.jar  
+	https://hamcrest.googlecode.com/files/hamcrest-core-1.3.jar  
 
 
 copyleft 2014 0xrcd
