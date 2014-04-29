@@ -1,6 +1,8 @@
 What is this About 
 ==================
 
+![Alt text](/img/main.png?raw=true "main window")
+
 A java program that encrypt a string using Caesar Cipher also demonstrates 
 simple implementation of Model-View-Controller pattern and uses theMigLayout 
 library for the UI.
